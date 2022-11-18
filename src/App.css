@@ -1,0 +1,1306 @@
+body{
+  margin-top: 0vh;
+  
+  margin-right: 0vw;
+}
+li{
+  cursor: pointer;
+}
+.App{
+  margin-top: -5vh;
+  display: flex;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  padding-bottom: 0vh;
+  width: 100vw;
+  z-index: 3;
+  
+}
+ .Logo {
+ margin-right: 30vw;
+ margin-left: 10vw;
+}
+
+
+.top-nav{
+  padding: 3%;
+  padding-bottom: 0px;
+  list-style-type:none ;
+  display: flex;  
+ color: rgb(29, 28, 28); 
+}
+.top-nav li{
+  margin-right: 3vw;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 400ms;
+  }
+
+
+.top-nav li:hover{
+  transform: translateX(0px) translateY(-6px);
+
+}
+.App h3 {
+margin-top: -1vh;
+background-color: rgb(65, 65, 65);
+color: white;
+padding: 10px 18px 10px 18px;
+border-radius: 30px;
+cursor: pointer;
+transition: 600ms;
+}
+.App h3:hover{
+  transform: translateX(0px) translateY(-6px);
+  box-shadow: 0px 10px 20px 0px bisque;
+  background-color: black;
+ }
+ .Ham{
+  display: none;
+}
+
+
+            /* MAIN DIV COMPONENT */
+
+.first-div{
+  margin-left: 10vw;
+  margin-top: 30vh;
+  display: flex;
+  margin-bottom: 15vh;
+  
+  
+}
+
+.first-div h1{
+  max-width: 40vw;
+  font-size: 50px;
+  text-shadow: 3px 3px 20px gray;
+  color: rgb(51, 49, 49);
+}
+.first-div h1 span{
+  font-size: 60px;
+  color: black;
+  font-weight: 700;
+}
+.first-div h2{
+  max-width: 400px;
+  font-weight: 450;
+  font-size: 30px;
+  font-style: italic;
+}
+.first-div p {
+  max-width: 40vw;
+  font-size: 20px;
+  
+}
+.first-div .PaperCloud{
+  background-image: url(./images/dotted_grid.png);
+  width: 290px;
+  border: 2px solid black;
+  border-radius: 12px;
+  margin-left: 10vw;
+}
+.first-div div img {
+  box-shadow: 0px 20px 50px rgb(245, 229, 210);
+  border-radius: 23px;
+  margin-right: 2vw;
+}
+.first-div div img:hover{
+  border: 1px solid black;
+}
+
+
+ /* SECOND IN MAIN COMPONENT */
+
+ .second{
+  margin-left: 10vw;
+  margin-top: 5vh;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0px;
+  background-color:rgb(241, 241, 241);
+  padding-bottom: 4vh;
+  
+ 
+ }
+ .second h1{
+  text-align: center;
+  font-size: 55px;
+  font-weight: 400;
+  color: rgb(39, 38, 38);
+ }
+ .second h1 span{
+  font-size: 55px;
+  font-weight: 750;
+ }
+ .second .content{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+ }
+ .second div p{
+  max-width: 75vw;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+ }
+ .second div p span{
+  font-weight: 700;
+  font-size: 23px;
+ }
+
+.annimate {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-image: url(./images/circle_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+
+@keyframes annimate {
+  from {margin-top: 50vh;}
+  to { transform: translate3d(0px, 1.7253px, 0px);}
+}
+.annimate div{
+  animation-name: annimate;
+  transition: 300ms;
+  animation-duration: 3s;
+  animation-iteration-count: 0;
+  animation-timing-function: ease-in-out;
+  opacity: 0.7;
+ 
+  height: 35vh;
+  width: max-content;
+  background-color: bisque;
+  margin-right: 3vw;
+  margin-bottom: 3vh;
+  padding: 1%;
+  border-radius: 10px;
+  
+}
+.annimate div p{
+  
+  text-align:justify;
+  max-width: 20vw;
+  font-size: 15px;
+}
+.second  a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 23px;
+  padding: 20px 3px 20px 3px;
+  width:30vw ;
+  margin-right: 35vw;
+  margin-left: 25vw;
+  background-color: white;
+  transition: 400ms;
+  
+  
+}
+.second a span{
+  font-weight: 700;
+}
+.second  a:hover{
+  transform: translateX(0px) translateY(-6px);
+  background-color: black;
+  color: white;
+  box-shadow: 0px 10px 50px rgb(226, 166, 92);
+}
+
+
+/* THIRD COMPONENT START */ 
+
+
+.third {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 10vw;
+}
+.third div{
+  margin-right: 2vw;
+}
+.third .rapper{
+  width:"239"; 
+  opacity: 1; 
+  transform: translate(0px, 0px);
+  
+}
+.third img {
+  max-width: 20vw;
+ 
+  width: 290px;
+  border: 5px solid black;
+  border-radius: 12px;
+
+}
+.third div h5 {
+  width: 30vw;
+  font-size: 40px;
+  font-weight: 400;
+ 
+}
+.third div h5 span{
+  font-weight: 700;
+  text-shadow: 3px 3px 20px gray;
+
+}
+.fun{
+  display: flex;
+  
+}
+.third .needed{
+  margin-top: 15vh;
+
+}
+.third div p{
+  font-size: 25px;
+  max-width: 30vw;
+}
+ /* FORTH COMPONENT */
+
+.forth{
+  margin-left: 10vw;
+  margin-top: 5vh;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0px;
+  background-color: rgb(241, 241, 241);
+  padding-bottom: 4vh;
+}
+.forth h2{
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  color: rgb(39, 38, 38);
+}
+.forth h2 span{
+  font-weight: 750;
+  text-shadow: 3px 3px 30px gray;
+}
+
+.annimat {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-image: url(./images/circle_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+ 
+}
+@keyframes annimate {
+  from {margin-top: 50vh;}
+  to { transform: translate3d(0px, 1.7253px, 0px);}
+}
+.annimat div{
+  animation-name: annimate;
+  transition: 300ms;
+  animation-duration: 3s;
+  animation-iteration-count: 0;
+  animation-timing-function: ease-in-out; 
+  height: 35vh;
+  width: 20vw;
+  background-color: rgb(255, 255, 255);
+  margin-right: 3vw;
+  margin-bottom: 3vh;
+  padding: 1%;
+  border-radius: 20px;
+  
+}
+
+
+/* 5TH COMPONENT */
+
+.accessible{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-left: 10vw;
+  flex-direction: column;
+}
+.accessible h3{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 3px 3px 30px gray;
+
+}
+.accessible h3 span{
+  font-weight: 750;
+}
+.accessible p{
+  text-align: center;
+  font-size: 20px;
+  width: 75vw;
+}
+
+.slide {
+  display: flex;
+  align-content: center;
+  justify-content:center ;
+  background-image: url(.//images/line_grid.png);
+  padding-top: 10vh;
+}
+.accessible .slide .ipad{
+  width: 20vw;
+  height: 60vh;
+  align-self: baseline;
+
+}
+.accessible .slide .lap{
+  width: 40vw;
+  height: 60vh;
+}
+.accessible .slide .tab{
+  margin-top: 30vh;
+  width: 15vw;
+  height: 40vh;
+}
+.accessible a{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 23px;
+  padding: 20px 3px 20px 3px;
+  width:30vw ;
+  background-color: white;
+  transition: 400ms;
+  box-shadow: 2px 2px 40px rgb(255, 186, 83);
+}
+.accessible a span{
+  font-weight: 700;
+}
+.accessible a:hover{
+  transform: translateX(0px) translateY(-7px);
+  background-color: black;
+  color: white;
+  box-shadow: 0px 10px 50px rgb(226, 166, 92);
+}
+.for{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.for .class{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  font-size: 22px;
+  font-weight: 300;
+
+}
+ .start{
+  text-align: center;
+  font-size: 25px;
+  color: gray;
+  font-weight: 400;
+}
+
+/* FINAL COMPONENT */
+
+.final{
+  padding-left: 10vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color:rgb(241, 241, 241);
+}
+.final h1{
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 20px gray;
+}
+.final h1 span{
+  font-weight: 400;
+}
+.final p span{
+  font-weight: 900;
+}
+.final p{
+  width: 75vw;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(80, 77, 77);
+}
+.style{
+  background-image: url(./images/arc.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.final .price{
+  padding: 2%;
+  margin-top: 5vh;
+  display: flex;
+}
+.price div{
+  display: flex;
+  flex-direction: column;
+  line-height: 2px;
+  text-align: center;
+  width: 20vw;
+  background-color: rgb(44, 44, 44);
+  color: white;
+  margin-right: 5vw;
+  padding: 1%;
+  border-radius: 30px;
+  height: 40vh;
+  transition: 900ms;
+}
+.price div:hover{
+  transform: translateX(0px) translateY(-20px);
+  box-shadow: 0px 20px 30px rgb(255, 182, 87);
+
+}
+.price div h6{
+  margin-bottom: -2vh;
+  font-size: 25px;
+}
+
+.price div h4{
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+.price div h2{
+  margin-top: -2vh;
+  font-size: 25px;
+  font-weight: 400;
+}
+.price .white {
+  background-color: white;
+  color: rgb(44, 44, 44);;
+}
+.final  a {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: black;
+  text-decoration: none;
+  border-radius: 23px;
+  text-align: center;
+  font-size: 23px;
+  padding: 20px 3px 20px 3px;
+  width:30vw ;
+  margin-right: 35vw;
+  margin-left: 25vw;
+  background-color: white;
+  transition: 400ms;
+  
+  
+}
+.final a span{
+  font-weight: 700;
+}
+.final  a:hover{
+  transform: translateX(0px) translateY(-7px);
+  background-color: black;
+  color: white;
+  box-shadow: 0px 10px 50px rgb(226, 166, 92);
+}
+
+/* AND THE FOOTER */
+
+.footer {
+  padding: 4%;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(80, 80, 80);
+  color: rgb(192, 192, 192);
+}
+.footer div{
+  margin-right: 5vw;
+}
+.img-footer h5{
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+.footer div p{
+  margin-top: 13vh;
+  width: 25vw;
+  font-size: 17px;
+  font-weight: 400;
+  
+
+}
+
+.footer span{
+font-weight: 800;
+letter-spacing: 1px;
+}
+
+.footer h6{
+  font-size: 23px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.footer ul{
+  margin-top: -5vh;
+  text-align: left;
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 35px;
+  width: max-content;
+}
+.fot h6{
+ margin-left: 0vw;
+}
+.footer .display{
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 0vh;
+    margin-right: 0vw;
+    padding-left: 0vw;
+  }
+  li{
+    cursor: pointer;
+  }
+  .App{
+    margin-top: -5vh;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    padding-bottom: 0vh;
+    width: 100vw;
+    z-index: 3;
+    
+  }
+   .Logo {
+    height: 7 vh;
+    width: 25vw;
+    margin-top: 6vh;
+   margin-right: 10vw;
+   margin-left: 5vw;
+  }
+  
+  
+  .top-nav{
+    padding: 3%;
+    padding-bottom: 0px;
+    list-style-type:none ;
+    display: flex;  
+   color: rgb(29, 28, 28); 
+  }
+  .top-nav li{
+    display: none;
+    margin-right: 3vw;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 400ms;
+    }
+  
+  
+  .top-nav li:hover{
+    transform: translateX(0px) translateY(-6px);
+  
+  }
+  .App h3 {
+    display: none;
+  margin-top: -1vh;
+  background-color: rgb(65, 65, 65);
+  color: white;
+  padding: 10px 18px 10px 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 600ms;
+  }
+  .App h3:hover{
+    transform: translateX(0px) translateY(-6px);
+    box-shadow: 0px 10px 20px 0px bisque;
+    background-color: black;
+   }
+.ham{
+  margin-left: 35vw;
+    padding: 3%;
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+   .Ham{
+    display:flex;
+    height: 10vh;
+    width: 10vw;
+  }
+  
+  
+              /* MAIN DIV COMPONENT */
+  
+  .paper{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    order: 1;
+  }
+  .personal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    order: 2;
+    align-items: center;
+  }
+  .appst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    order: 3;
+  }
+  
+  .first-div{
+    margin-left: 0vw;
+    margin-top: 10vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    
+    
+  }
+  
+  .first-div h1{
+    text-align: center;
+    max-width: 50vw;
+    margin-left: 0vw;
+    font-size: 30px;
+    text-shadow: 3px 3px 20px gray;
+    color: rgb(51, 49, 49);
+  }
+  .first-div h1 span{
+    text-align: center;
+    margin-left: 0vw;
+    font-size: 35px;
+    color: black;
+    font-weight: 700;
+  }
+  .first-div h2{
+    text-align: left;
+   
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+  }
+  .first-div p {
+    text-align: justify;
+    max-width: 60vw;
+    font-size: 12px;
+    
+  }
+  .first-div .PaperCloud{
+    background-image: url(./images/dotted_grid.png);
+    width: 170px;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 12px;
+    align-items: center;
+    margin-left: 0vw;
+    order: 1;
+  }
+  .first-div div img {
+    display: block;
+    box-shadow: 0px 20px 50px rgb(245, 229, 210);
+    border-radius: 23px;
+    margin-right: 0vw;
+    width: 40vw;
+    margin-left: 0vw;
+    margin-bottom: 2vh;
+  }
+  .first-div div img:hover{
+    border: 1px solid black;
+  }
+  
+  
+   /* SECOND IN MAIN COMPONENT */
+  
+   .second{
+    width: 100vw;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    padding-left: 0vw;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    background-color:rgb(241, 241, 241);
+    padding-bottom: 5vh;
+    
+   
+   }
+   .second h1{
+    margin-left: 0vw;
+    text-align:center;
+    font-size: 25px;
+    font-weight: 400;
+    color: rgb(39, 38, 38);
+   }
+   .second h1 span{
+    font-size: 25px;
+    font-weight: 750;
+   }
+   .second .content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0vw;
+   }
+   .second div p{
+    justify-self: center;
+    justify-items: center;
+    max-width:max-content;
+    text-align:center;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 0vw;
+   }
+   .second div p span{
+    font-weight: 700;
+    font-size: 12px;
+   }
+  .second div{
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+
+
+  }
+  .annimate {
+     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+   
+    background-image: url(./images/circle_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 0vw;
+  }
+  
+
+  .annimate div{
+  
+    opacity: 0.7;
+   align-items: center;
+    height: 40vh;
+    max-width: 40vw;
+    background-color: bisque;
+    margin-right: 0vw;
+    margin-bottom: 3vh;
+    padding: 1%;
+    border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+  }
+  .annimate div p{
+    text-align: justify;
+    width: fit-content;
+    font-size: 12px;
+    word-spacing: 2px;
+    padding: 1px;
+    padding-right: 13px;
+    margin-left: 0px;
+   
+    margin-top: 0px;
+
+  }
+  .second .a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .second  a {
+   
+    color: black;
+    text-decoration: none;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 13px;
+    padding: 20px 3px 20px 3px;
+    width: 80vw ;
+    background-color: white;
+    transition: 400ms;
+    height: 3vh;
+    
+    
+  }
+  .second a span{
+    font-weight: 700;
+  }
+  .second  a:hover{
+    transform: translateX(0px) translateY(-6px);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 10px 50px rgb(226, 166, 92);
+  }
+  
+  
+  /* THIRD COMPONENT START */ 
+  
+  
+  .third {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-content: center;
+    margin-left: 0vw;
+  }
+  .third div{
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-right: 0vw;
+  }
+  .third .rapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width:"239"; 
+    opacity: 1; 
+    transform: translate(0px, 0px);
+    
+  }
+  .third img {
+    max-width: 30vw;
+    height: 70vh;
+    /* width: 290px; */
+    border: 5px solid black;
+    border-radius: 12px;
+  
+  }
+  .third div h5 {
+    text-align: center;
+    width: 70vw;
+    font-size: 30px;
+    font-weight: 400;
+   
+  }
+  .third div h5 span{
+    font-weight: 700;
+    text-shadow: 3px 3px 20px gray;
+  
+  }
+  .fun{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .third .needed{
+    order: 1;
+    margin-top: 1vh;
+  
+  }
+  .third div  p{
+    text-align: center;
+    font-size: 15px;
+    max-width: 70vw;
+  }
+  .with{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-content:center ;
+    flex-direction: column;
+  }
+   /* FORTH COMPONENT */
+  
+  .forth{
+    height: fit-content;
+    margin-left: 0vw;
+    margin-top: 5vh;
+    padding-left: 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 4vh;
+  }
+  .forth h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(39, 38, 38);
+  }
+  .forth h2 span{
+    font-weight: 750;
+    text-shadow: 3px 3px 30px gray;
+  }
+  
+  .annimat {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-image: url(./images/circle_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+   
+  }
+  @keyframes annimate {
+    from {margin-top: 50vh;}
+    to { transform: translate3d(0px, 1.7253px, 0px);}
+  }
+  .annimat div{
+    animation-name: annimate;
+    transition: 300ms;
+    animation-duration: 3s;
+    animation-iteration-count: 0;
+    animation-timing-function: ease-in-out; 
+    height: max-content;
+    width: 40vw;
+    font-size: 17px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+    padding: 1%;
+    border-radius: 20px;
+    
+  }
+  
+  
+  /* 5TH COMPONENT */
+  
+  .accessible{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 0vw;
+    flex-direction: column;
+  }
+  .accessible h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 500;
+    text-shadow: 3px 3px 30px gray;
+  
+  }
+  .accessible h3 span{
+    font-weight: 750;
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .accessible p{
+    text-align: center;
+    font-size: 15px;
+    width: 75vw;
+  }
+  
+  .slide {
+    display: flex;
+    align-content: center;
+    justify-content:center ;
+    background-image: url(.//images/line_grid.png);
+    padding-top: 10vh;
+  }
+  .accessible .slide .ipad{
+    display: none;
+    width: 20vw;
+    height: 60vh;
+    align-self: baseline;
+  
+  }
+  .accessible .slide .lap{
+    width: 40vw;
+    height: 40vh;
+  }
+  .accessible .slide .tab{
+    margin-top: 10vh;
+    width: 15vw;
+    height: 40vh;
+  }
+  .accessible a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    text-decoration: none;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px 3px 20px 3px;
+    width:45vw ;
+    background-color: white;
+    transition: 400ms;
+    box-shadow: 2px 2px 40px rgb(255, 186, 83);
+  }
+  .accessible a span{
+    font-weight: 700;
+  }
+  .accessible a:hover{
+    transform: translateX(0px) translateY(-7px);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 10px 50px rgb(226, 166, 92);
+  }
+  .for{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  .for div{
+    display:flex ;
+    justify-content: center;
+    align-content: center;
+  }
+  .for .class{
+   
+    margin-top: 0vh;
+    margin-left: 0vw;
+    font-size: 22px;
+    font-weight: 300;
+  
+  }
+   .start{
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    font-weight: 400;
+  }
+  
+  /* FINAL COMPONENT */
+  
+  .final{
+    padding-left: 0vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:rgb(241, 241, 241);
+  }
+  .final h1{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: 2px 2px 20px gray;
+  }
+  .final h1 span{
+    font-weight: 400;
+  }
+  .final p span{
+    font-weight: 900;
+  }
+  .final p{
+    width: 75vw;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(80, 77, 77);
+  }
+  .cloud{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+  }
+  .style{
+    background-image: url(./images/arc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  .final .price{
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+   
+    padding: 2%;
+    margin-top: 5vh;
+    flex-direction: column;
+  }
+  .price div{
+    display: flex;
+    flex-direction: column;
+    line-height: 2px;
+    text-align: center;
+    width: 40vw;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    margin-right: 0vw;
+    padding: 1%;
+    padding-bottom: 3%;
+    border-radius: 30px;
+    height: max-content;
+    transition: 900ms;
+    margin-bottom: 4vh;
+  }
+  .price div:hover{
+    transform: translateX(0px) translateY(-20px);
+    box-shadow: 0px 20px 30px rgb(255, 182, 87);
+  
+  }
+  .price div h6{
+    margin-bottom: -2vh;
+    font-size: 23px;
+  }
+  
+  .price div h4{
+    font-size: 40px;
+    letter-spacing: 3px;
+  }
+  .price div h2{
+    margin-top: -2vh;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .price .white {
+    background-color: white;
+    color: rgb(44, 44, 44);;
+  }
+  .final .a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+  }
+  .final  a {
+    
+    color: black;
+    text-decoration: none;
+    border-radius: 23px;
+    text-align: center;
+    font-size: 23px;
+    padding: 20px 3px 20px 3px;
+    width: max-content;
+    margin-right: 0vw;
+    margin-left: 0vw;
+    background-color: white;
+    transition: 400ms;
+    
+    
+  }
+  .final a span{
+    font-weight: 700;
+  }
+  .final  a:hover{
+    transform: translateX(0px) translateY(-7px);
+    background-color: black;
+    color: white;
+    box-shadow: 0px 10px 50px rgb(226, 166, 92);
+  }
+  
+  /* AND THE FOOTER */
+  
+  .footer {
+    padding: 4%;
+    padding-left: 0vw;
+    display: flex;
+    
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(80, 80, 80);
+    color: rgb(192, 192, 192);
+  }
+  .footer div{
+    margin-right: 0vw;
+  }
+  .display{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+  .display div{
+    margin-right: 5vw;
+  }
+  
+
+  .img-footer h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+  }
+  .footer div p{
+    margin-top: 13vh;
+    width: 40vw;
+    font-size: 17px;
+    font-weight: 400;
+    
+  
+  }
+  
+  .footer span{
+  font-weight: 800;
+  letter-spacing: 1px;
+  }
+  
+  .footer h6{
+    
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+  }
+  .footer ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: -5vh;
+    text-align: left;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .footer li{
+    text-align: left;
+  }
+  .fot h6{
+    
+   margin-left: 0vw;
+  }
+  
+}
